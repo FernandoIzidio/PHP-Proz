@@ -12,10 +12,11 @@
 
         $name = value;
 
-    Manipulação de strings:
+    
 
 
     Cada comando no php é seperado por ;
+
 
 
     Arrays indexaveis:
