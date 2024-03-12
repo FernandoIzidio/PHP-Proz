@@ -60,7 +60,10 @@
             -> - Usado para executar/acessar metódos e atributos
             => - usado para atribuir valor em dicts
 
+        use - Bult-in utilizado para manipular contexto e escopos exemplos de uso
 
+        use($variable) - Importa a variavel de um escopo mais externo
+        
      */
 
     $foo =  "name";
@@ -85,5 +88,6 @@
         echo $i;
     }
 
-
+    $i = 0;
+    
 ?>
