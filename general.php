@@ -90,8 +90,10 @@
             is_float() - Verifica se é float
 
         Sintaxe:
-            -> - Usado para executar/acessar metódos e atributos
+            -> - Usado para executar/acessar metódos e atributos de instância
             => - usado para atribuir valor a chaves em dicts
+            @ - Operador de supressão de erros
+            :: - Acessa atributo/metódo estatico(de classe).
 
         use - Bult-in utilizado para manipular contexto e escopos exemplos de uso
 

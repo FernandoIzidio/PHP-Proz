@@ -47,6 +47,6 @@ function try_do_this(callable $func, ...$args) {
 $double_try = try_do_this(function($x, $y) {return $x * $y;}, 2);
 
 
-echo $double_try(4)
+echo $double_try(4);
 
 ?>
