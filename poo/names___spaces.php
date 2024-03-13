@@ -26,7 +26,8 @@ Declaração namespaces:
 */
 
 
-
+require "./contract/product.php";
+require "./models/product.php";
 require "./heritage_polymorphism_abstraction.php";
 
 use Nameheritage\Animal;
@@ -43,4 +44,19 @@ class Bear extends  Animal{
         return 60;
     }
 };
+
+use namespaceProduct\Product as npProduct;
+use namespaceModels\Product as nmProduct;
+
+$p1 = new npProduct(50, 40);
+
+$p2 = new nmProduct(50, 40);
+
+
+
+$p2->unique();
+
+$p1->unique();
+
+
 ?>

@@ -1,5 +1,5 @@
 <?php
-namespace contract;
+namespace namespaceProduct;
 
 class Product {
     public $amount;

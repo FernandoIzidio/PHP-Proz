@@ -1,5 +1,5 @@
 <?php
-namespace models;
+namespace namespaceModels;
 
 class Product {
     public $amount;
