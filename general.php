@@ -28,7 +28,10 @@
 
     Cada comando no php é seperado por ;
 
+    include "module2.php" - Tentar importar conteúdo de um módulo php, se não encontrar não gera erros, mas lança um aviso
 
+
+    require "module.php" - Importa todo conteúdo de um módulo php, se não encontrar lança um erro
 
     Arrays indexaveis:
 
