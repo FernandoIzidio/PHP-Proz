@@ -12,7 +12,18 @@
 
         $name = value;
 
-    
+        $$name = value2; - Cria uma variavel de nome value com valor value2
+
+
+        const variable = "foo"; Cria uma variavel de valor constante 
+        
+        
+
+        $var1 = "value"
+
+        $var2 = &$var1; - Var2 vai referenciar(apontar) pro valor de var1;
+
+
 
 
     Cada comando no php é seperado por ;
@@ -28,6 +39,9 @@
     Arrays associatiavos:
         $dict =  array("name" => "Tulio", "idade" => 78)
 
+        $dict = ["key" => "value"]
+
+
     Extruturas de repetição:
         
         for($i = 0 ;  $i < x; $i++){
@@ -38,6 +52,18 @@
             echo $item;
         }
 
+        switch ($variable){
+            case 'value':
+                do anything...
+                break;
+
+            case default:
+                do anything...
+                break;
+        
+
+        }
+
 
         while($idade < 18){
             do anything...
@@ -45,6 +71,13 @@
 
 
         Bool or Get-Type functions:
+
+            var_dump($variable) - Retorna informações sobre o tipo de uma variavel
+
+            print_r()(print readable) - Renderiza uma variavel que não é renderizavel, por exemplo, um array, ou seja renderiza variaveis que não tem representação string implementadas
+
+
+            isset($variable) - Retorna true se a variavel foi declarada, e é diferente de null
 
             gettype($name) - Retorna o tipo de nome
 
@@ -58,7 +91,7 @@
 
         Sintaxe:
             -> - Usado para executar/acessar metódos e atributos
-            => - usado para atribuir valor em dicts
+            => - usado para atribuir valor a chaves em dicts
 
         use - Bult-in utilizado para manipular contexto e escopos exemplos de uso
 
@@ -71,6 +104,16 @@
 
     $nome = "fulano";
     $idade = 45;
+
+    switch ($variable) {
+        case 'value':
+            # code...
+            break;
+        
+        default:
+            # code...
+            break;
+    }
 
     echo $idade . $nome;
 
@@ -89,5 +132,5 @@
     }
 
     $i = 0;
-    
+ 
 ?>
