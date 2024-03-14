@@ -19,6 +19,21 @@ new - Usado para criar instância de classe
 
 extends - Usado para herdar os metódos e atributos de uma classe
 
+implements - Instrução para implementar uma interface.
+
+final - Impedi que uma classe seja extendida, ou um metódo e atributo seja sobreescrito, ou modificado em uma child class.
+
+
+final class ClassName(){} - Impedi que a classe seja extendida
+
+
+class Hello(){
+
+    final public function sayHello (){
+
+    } - Impedi que o metódo seja sobreescrito, ou modificado nas child class
+}
+
 class Pessoa{} - Cria uma classe
 
 interface Pessoa{} - Cria uma interface - Classe que contém apenas metódos e atributos de assinatura
@@ -68,6 +83,10 @@ encapsulamento - Controle de acesso:
 
 interfaces - Classes que contém apenas assinuturas de metódos, e não possuem nenhum metódo concreto
 
+
+sobrecarga de metódos - Uma classe pode ter varios metódos de mesmo nome, e diferentes quantidades de argumentos,  e cada metódo de mesmo nome se comportar de maneira diferente. O php não suporta esse recurso. O php apenas suporta a sobreposição de metódos
+
+Ou seja o php vai primeiro buscar o metódo nas child class, e depois nas parent class
 
 
 
