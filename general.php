@@ -183,7 +183,12 @@
         is_float() - Verifica se é float
 
  
-           
+    Native functions:   
+
+        rand_mt(start, end) - Gera número aleatório
+        rand(start, end) - Gera número aleatório
+
+        sleep(int) - atrasa a execução do script do servidor, em int segundso
 
 
         
@@ -223,6 +228,8 @@
     for($i = 0 ;  $i < 8; $i++){
         echo $i;
     }
+
+    
 
     $i = 0;
  
