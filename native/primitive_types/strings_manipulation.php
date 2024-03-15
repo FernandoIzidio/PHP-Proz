@@ -7,7 +7,7 @@ Main:
     
     stripos(haystack, needle) -> Versão insensitiva de strpos
 
-    str_replace(pattern, replace, subject) - Substitui pattern, por replace, na string 
+    str_replace(pattern, replace, subject/string) -> string - Substitui pattern, por replace, na string 
     subject
     
     str_ireplace(pattern, replace, subject/string) - Versão isensitiva de str_replace
@@ -43,7 +43,10 @@ Main:
     str_shuffle(string) - Embaralha uma string
 
 
-    str_getcsv - Converte uma string csv para array
+    substr(string, start, length/) - Pega uma parte de uma string, a partir de start, e essa parte vai ter o compriemtno de lenght
+
+
+    str_getcsv(string) -> array - Converte uma string csv para array
 
     chr(int $ascii) -> Converte um número da tabela ascii em seu caracter correspondente na ascii
 
@@ -99,8 +102,6 @@ Others:
 
 
 */
-
-
 
 
 

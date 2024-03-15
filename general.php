@@ -1,6 +1,35 @@
 <?php
     /*
 
+
+
+     Tipos de dados:
+    
+        string
+        int
+        float
+        bool
+        undefined
+        NaN
+
+
+    Casting:
+
+        (string) $variable; - Converte para string
+        (int) $variable;
+        (bool) $variable;
+        (float) $variable;
+        
+        (array) $variable; - Tenta converter variable para array
+        (object) $variable; - Tenta converter para um objeto de metódos e atributos, funciona melhor com arrays
+
+
+
+
+
+    Toda classe herda de stdClass.
+
+
     Intruções/clausulas:
         Cada comando/declaração no php é seperado por ;(Metódos não levam ;)
 
@@ -39,6 +68,8 @@
             <= (menor ou igual a)
             >= (maior ou igual a)
 
+
+            obj <=> obj2 - Nav operator, se obj for maior que obj2 retorna 1, caso contrario -1, se forem iguais retorna 0, funciona como subtração, mas só retorna 3 valores
                     
         Operadores Lógicos:
 
@@ -63,16 +94,12 @@
             @ - Operador de supressão de erros
 
             :: - Acessa atributo/metódo estatico(de classe).
+
+            ?? - Operador de coleascência, se o objeto retornar null, ou undefined, seta um valor padrão para a variavel 
     
 
 
-    Tipos de dados:
-    
-        str
-        int
-        float
-        bool
-        undefined
+   
 
     Declaração de variaveis:
 
@@ -120,6 +147,9 @@
         }
 
 
+        $apelido = "print_r";
+
+        $apelido();
         
 
     Extruturas de dados:
