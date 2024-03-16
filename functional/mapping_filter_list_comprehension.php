@@ -23,6 +23,7 @@ $products = array(
 );
 
 
+
 $new_products = array_filter($products, function($product, $indice) {
     return $product["preço"] > 18;
 }, ARRAY_FILTER_USE_BOTH);

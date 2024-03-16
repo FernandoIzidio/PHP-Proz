@@ -59,7 +59,7 @@ Modify Original:
 
     sort($array) - Ordena um array númerico em ordem crescente
 
-    next(array) - muda o current_element para o proximo elemento
+    next($array) - muda o current_element para o proximo elemento
 
         
 
@@ -71,6 +71,10 @@ Modify Original:
 
 
 Copy original:
+
+    array_walk_recursive($array, $callback, $arg) - Itera recursivamente sobre todos elementos de uma array
+
+    array_rand($array, int $quantity )- Gera um novo array, selecionando valores aleatórios a partir das chaves/indices do $array informado, $quantity defini número de elementos aleatórios selecionados
 
     array_merge($array1, array $other_arrays):array - Mescla dois arrays, se as chaves de dois ou mais arrays forem iguais, o ultimo valor para a chave sobreescreve todos, o mesmo vale pare array indexavel, ou nomeado
 
