@@ -9,6 +9,8 @@ Uma classe é um molde que define os metódos(comportamentos) e atributos(caract
 Uma classe deve ser reutilizavel em diversos contextos
 
 
+Constantes em classes, se comportam como atributos de classe
+
 parent - Referência a parent class
 
 self - Usado para acessar metódos ou atributos estaticos, ou seja metódos e atributos de classe
